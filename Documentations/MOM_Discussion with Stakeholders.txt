@@ -1,0 +1,11 @@
+Points:-
+1.	Need Unix environment - FTP support for the file storage for faster and more efficient file handling.
+2.	Need to build filename base distribution, monitoring and execution system instead of additional scheduler.txt based system to avoid unexpected deadlocks.
+3.	Need dedicated machines for execution. (Srinivas will consult with Sanjay on this point)
+4.	Initial data fetch logic to and from FTP need to be built.
+5.	Sending email at the end of Execution logic need to be build.
+6.	Abrupt termination handling logic need to be built for main file split and sub file processing code.
+7.	Need to maintain central working folder for all the sub files.
+8.	All the search keys (ATG,TATA..etc) need to be considered while splitting the file to avoid boundary region related issues.
+9.	Output file should be in a format of key-value/csv.
+10.	We might need to either implement a parser for the output file if we are providing a file with a format only known to us or provide the output in a generic format.
